@@ -1,0 +1,26 @@
+{
+  "name": "angular2-infinitescroll",
+  "authors": [
+    "RAJAN G (rajangmca@gmcail.com) & Sharmile(sharmilesai@gmail.com)"
+  ],
+  "description": "angular2-infinitescroll",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "angular2",
+    "angular2-infinitescroll",
+	 "angular2-infinitescroll"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

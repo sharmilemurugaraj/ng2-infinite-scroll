@@ -1,0 +1,43 @@
+{
+  "name": "angular2infinitescroll",
+  "version": "1.0.3",
+  "description": "Angular 2 infinitescroll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmilemurugaraj/angular2-infinitescroll.git"
+  },
+  "scripts": {
+    "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "author": "Sharmile M",
+  "license": "MIT",
+  "homepage": "https://github.com/sharmilemurugaraj/angular2-infinitescroll#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.15",
+    "systemjs": "0.19.26",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.10"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.7.12"
+  },
+  "bugs": {
+    "url": "https://github.com/sharmilemurugaraj/angular2-infinitescroll/issues"
+  },
+  "main": "app/main.ts",
+  "keywords": [
+    "angular2",
+    "infinitescroll"
+  ]
+}
