@@ -4,7 +4,7 @@
   "description": "Angular 2 infinitescroll",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharmilemurugaraj/angular2-infinitescroll.git"
+    "url": "git+https://github.com/sharmilemurugaraj/ng2-infinite-scroll"
   },
   "scripts": {
     "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0",
@@ -17,7 +17,7 @@
   },
   "author": "Sharmile M",
   "license": "MIT",
-  "homepage": "https://github.com/sharmilemurugaraj/angular2-infinitescroll#readme",
+  "homepage": "https://github.com/sharmilemurugaraj/ng2-infinite-scroll#readme",
   "dependencies": {
     "angular2": "2.0.0-beta.15",
     "systemjs": "0.19.26",
@@ -33,7 +33,7 @@
     "typings": "^0.7.12"
   },
   "bugs": {
-    "url": "https://github.com/sharmilemurugaraj/angular2-infinitescroll/issues"
+    "url": "https://github.com/sharmilemurugaraj/ng2-infinite-scroll/issues"
   },
   "main": "app/main.ts",
   "keywords": [
