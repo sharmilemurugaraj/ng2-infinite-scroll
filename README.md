@@ -1,7 +1,7 @@
-angular2-infinite-scroll
+ng2-infinite-scroll
 =========
 
-The sources for this package are in (https://github.com/sharmilemurugaraj/angular2-infinitescroll.git) repo. Please file issues and pull requests against that repo.
+The sources for this package are in (https://github.com/sharmilemurugaraj/ng2-infinite-scroll) repo. Please file issues and pull requests against that repo.
 
 ##Usage
 

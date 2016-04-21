@@ -1,9 +1,9 @@
 {
-  "name": "angular2-infinitescroll",
+  "name": "ng2-infinite-scroll",
   "authors": [
     "RAJAN G (rajangmca@gmcail.com) & Sharmile(sharmilesai@gmail.com)"
   ],
-  "description": "angular2-infinitescroll",
+  "description": "ng2-infinite-scroll",
   "main": "",
   "moduleType": [
     "es6",
@@ -11,8 +11,8 @@
   ],
   "keywords": [
     "angular2",
-    "angular2-infinitescroll",
-	 "angular2-infinitescroll"
+    "ng2-infinite-scroll",
+ "ng2-infinite-scroll"
   ],
   "license": "MIT",
   "homepage": "",

@@ -1,6 +1,6 @@
 {
-  "name": "angular2infinitescroll",
-  "version": "1.0.3",
+  "name": "ng2-infinite-scroll",
+  "version": "1.0.0",
   "description": "Angular 2 infinitescroll",
   "repository": {
     "type": "git",
