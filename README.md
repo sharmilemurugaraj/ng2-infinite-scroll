@@ -5,7 +5,7 @@ The sources for this package are in (https://github.com/sharmilemurugaraj/ng2-in
 
 ##Usage
 
-1.Include the following lines in typescript file.
+Include the following lines in typescript file.
 ```typescript
 
 import {Component} from 'angular2/core';
@@ -25,13 +25,17 @@ export class AppComponent {
     }
 }
 ```
+### style.css
 
-2. Custom css must be added to set the height for the particular div. Height can be changed according to the screen.
+Custom css must be added to set the height for the particular div. Height can be changed according to the screen.
+
+```typescript
 
 .search-results{
 	height: 180px !important;
 	overflow: scroll;
 }
+```
 
 
 
