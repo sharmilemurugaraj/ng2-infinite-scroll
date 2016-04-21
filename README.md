@@ -24,11 +24,10 @@ export class AppComponent {
         console.log('Reached Bottom!!');
     }
 }
-```typescript
+```
 
 2. Custom css must be added to set the height for the particular div. Height can be changed according to the screen.
 
-#### Style.css
 .search-results{
 	height: 180px !important;
 	overflow: scroll;
