@@ -31,6 +31,7 @@ System.register(['angular2/core', 'angular2/common'], function(exports_1, contex
                     }
                 }
                 InfiniteScroll.prototype.onScroll = function () {
+                    console.log('testsssss', this.scrollTrigger);
                     this._count++;
                     if (this._element.scrollTop + this._element.clientHeight >= this._element.scrollHeight) {
                         this.OnScrollMethod.emit(null);

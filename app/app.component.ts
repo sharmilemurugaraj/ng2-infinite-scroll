@@ -8,7 +8,7 @@ import {InfiniteScroll} from '../directives/angular2-infinitescroll';
     template:  `
         <div class="row">
           <div class="col-xs-6">
-            <div class="search-results" (OnScrollMethod) = "nextPage()" ScrollDistance="3" InfiniteScroll style="height: 170px !important;overflow: scroll">
+            <div class="search-results" (OnScrollMethod) = "nextPage()" [ScrollDistance]="3" InfiniteScroll style="height: 170px !important;overflow: scroll">
               <div *ngFor ="#data of testData">
                  <p> {{data.text}} </p>
               </div>

@@ -29,6 +29,5 @@ export class InfiniteScroll {
         this.OnScrollMethod.emit(null);
       }
     }
-
   }
 }

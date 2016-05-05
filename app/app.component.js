@@ -57,7 +57,7 @@ System.register(['angular2/core', '../directives/angular2-infinitescroll'], func
                     core_1.Component({
                         selector: 'my-app',
                         directives: [angular2_infinitescroll_1.InfiniteScroll],
-                        template: "\n        <div class=\"row\">\n          <div class=\"col-xs-6\">\n            <div class=\"search-results\" (OnScrollMethod) = \"nextPage()\" ScrollDistance=\"3\" InfiniteScroll style=\"height: 170px !important;overflow: scroll\">\n              <div *ngFor =\"#data of testData\">\n                 <p> {{data.text}} </p>\n              </div>\n              </div>\n            </div>"
+                        template: "\n        <div class=\"row\">\n          <div class=\"col-xs-6\">\n            <div class=\"search-results\" (OnScrollMethod) = \"nextPage()\" [ScrollDistance]=\"3\" InfiniteScroll style=\"height: 170px !important;overflow: scroll\">\n              <div *ngFor =\"#data of testData\">\n                 <p> {{data.text}} </p>\n              </div>\n              </div>\n            </div>"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
