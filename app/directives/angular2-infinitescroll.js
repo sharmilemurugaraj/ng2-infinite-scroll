@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/common'], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/common'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -31,7 +31,6 @@ System.register(['angular2/core', 'angular2/common'], function(exports_1, contex
                     }
                 }
                 InfiniteScroll.prototype.onScroll = function () {
-                    console.log('testsssss', this.scrollTrigger);
                     this._count++;
                     if (this._element.scrollTop + this._element.clientHeight >= this._element.scrollHeight) {
                         this.OnScrollMethod.emit(null);

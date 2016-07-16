@@ -1,5 +1,5 @@
-import {Directive,ElementRef,Input,Output,EventEmitter} from 'angular2/core';
-import {NgModel} from 'angular2/common';
+import {Directive,ElementRef,Input,Output,EventEmitter} from '@angular/core';
+import {NgModel} from '@angular/common';
 
 @Directive({
   selector: '[InfiniteScroll]',

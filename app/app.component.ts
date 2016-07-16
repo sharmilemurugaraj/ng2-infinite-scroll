@@ -1,6 +1,6 @@
 
-import {Component} from 'angular2/core';
-import {InfiniteScroll} from '../directives/angular2-infinitescroll';
+import {Component} from '@angular/core';
+import {InfiniteScroll} from './directives/angular2-infinitescroll';
 
 @Component({
     selector : 'my-app',

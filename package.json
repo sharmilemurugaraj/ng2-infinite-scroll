@@ -1,13 +1,21 @@
 {
-  "name": "ng2-infinitescroll",
-  "version": "1.0.3",
-  "description": "Angular 2 infinitescroll",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sharmilemurugaraj/ng2-infinite-scroll.git"
+  "name": "angular2-google-chart",
+  "version": "1.0.8",
+  "description": "google chart directive for angular2",
+  "main": "index.js",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.3",
+    "@angular/compiler": "2.0.0-rc.3",
+    "@angular/core": "2.0.0-rc.3",
+    "@angular/platform-browser": "2.0.0-rc.3",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.3",
+    "systemjs": "0.19.27",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
   },
   "scripts": {
-    "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0",
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
@@ -15,31 +23,25 @@
     "typings": "typings",
     "postinstall": "typings install"
   },
-  "author": "Sharmile M",
-  "license": "MIT",
-  "homepage": "https://github.com/sharmilemurugaraj/ng2-infinite-scroll#readme",
-  "dependencies": {
-    "angular2": "2.0.0-beta.15",
-    "systemjs": "0.19.26",
-    "es6-shim": "^0.35.0",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.6.10"
-  },
-  "devDependencies": {
+   "devDependencies": {
     "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
-    "typings": "^0.7.12"
+    "typings":"^0.8.1"
   },
-  "bugs": {
-    "url": "https://github.com/sharmilemurugaraj/ng2-infinite-scroll/issues"
+  "license": "MIT",
+  "author": "Vimala A",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalavinisha/angular2-google-chart.git"
   },
-  "main": "app/main.ts",
   "keywords": [
-    "angular2",
-    "infinitescroll",
-    "ng2-infinitescroll",
-    "ng2-infinite-scroll"
-  ]
+    "google-chart",
+    "angular2-google-chart",
+    "chart"
+  ],
+  "bugs": {
+    "url": "https://github.com/vimalavinisha/angular2-google-chart/issues"
+  },
+  "homepage": "https://github.com/vimalavinisha/angular2-google-chart#readme"
 }
