@@ -1,6 +1,8 @@
 ng2-infinite-scroll
 =========
 
+This module supports for Angular2 rc version.
+
 The sources for this package are in (https://github.com/sharmilemurugaraj/ng2-infinite-scroll) repo. Please file issues and pull requests against that repo.
 
 ##Usage
