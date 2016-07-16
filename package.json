@@ -1,6 +1,6 @@
 {
   "name": "ng2-infinite-scroll",
-  "version": "1.0.",
+  "version": "2.0.0",
   "description": "inifnite scroll for angular2",
   "main": "index.js",
   "dependencies": {
