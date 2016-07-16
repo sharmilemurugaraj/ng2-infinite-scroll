@@ -1,18 +1,19 @@
 {
-  "name": "angular2-google-chart",
+  "name": "ng2-infinite-scroll",
   "authors": [
-    "Vimala A (vimalamca1991@gmcail.com)"
+    "Sharmile M (sharmilesai@gmcail.com)"
   ],
-  "description": "google chart directive for angular2",
+  "description": "infinitescroll directive for angular2",
   "main": "",
   "moduleType": [
     "es6",
     "node"
   ],
   "keywords": [
-    "angular2",
-    "angular2-google-chart",
-	"angular2-google"
+    "inifnite-scroll",
+    "angular2-infinite-scroll",
+    "ng2-infinite-scroll",
+    "infinitescroll"
   ],
   "license": "MIT",
   "homepage": "",

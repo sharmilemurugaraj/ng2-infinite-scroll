@@ -8,7 +8,7 @@ The sources for this package are in (https://github.com/sharmilemurugaraj/ng2-in
 Include the following lines in typescript file.
 ```typescript
 
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {InfiniteScroll} from '../directives/angular2-infinitescroll';
 
 @Component({

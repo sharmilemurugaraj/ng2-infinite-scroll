@@ -1,7 +1,7 @@
 {
-  "name": "angular2-google-chart",
-  "version": "1.0.8",
-  "description": "google chart directive for angular2",
+  "name": "ng2-infinite-scroll",
+  "version": "1.0.",
+  "description": "inifnite scroll for angular2",
   "main": "index.js",
   "dependencies": {
     "@angular/common": "2.0.0-rc.3",
@@ -30,18 +30,19 @@
     "typings":"^0.8.1"
   },
   "license": "MIT",
-  "author": "Vimala A",
+  "author": "Sharmile M",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vimalavinisha/angular2-google-chart.git"
+    "url": "git+https://github.com/sharmilemurugaraj/ng2-infinite-scroll"
   },
   "keywords": [
-    "google-chart",
-    "angular2-google-chart",
-    "chart"
+    "inifnite-scroll",
+    "angular2-infinite-scroll",
+    "ng2-infinite-scroll",
+    "infinitescroll"
   ],
   "bugs": {
-    "url": "https://github.com/vimalavinisha/angular2-google-chart/issues"
+    "url": "https://github.com/sharmilemurugaraj/ng2-infinite-scroll"
   },
-  "homepage": "https://github.com/vimalavinisha/angular2-google-chart#readme"
+  "homepage": "https://github.com/sharmilemurugaraj/ng2-infinite-scroll#readme"
 }
